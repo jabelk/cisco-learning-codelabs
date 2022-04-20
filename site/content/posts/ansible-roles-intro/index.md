@@ -7,7 +7,7 @@ categories: [code]
 tags: [code]
 status: Published
 authors: Jason Belk
-duration: 5
+duration: 8
 ---
 
 <!-- Overview Step is a required step and must be at the beginning of each codelab -->
@@ -73,7 +73,7 @@ Ansible roles have a standard structure to them with directories named a specifi
 
 {{< /step >}}
 
-{{< step label="How to Create an Ansible Role" duration="1:00" >}}
+{{< step label="How to Create an Ansible Role" duration="2:00" >}}
 
 Ansible includes a command-line utility to create your own Ansible roles called `ansible-galaxy`. This is very helpful since Ansible expects the roles to have a certain file structure. If you use the `ansible-galaxy` command, there is no question that the directory structure aligns with what Ansible is expecting to see when it loads in the role (spelling errors are a common problem when working with Ansible expecting things a certain way).
 
